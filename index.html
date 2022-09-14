@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Word Me</title>
+    <link rel=stylesheet href=style.css>
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cairo&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cairo&family=Inter:wght@200&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <span>Word Me</span>
+    </header>
+        <div id="insert_para">
+            <h2>
+                Insert your paragraph to generate list of words
+            </h2>
+            <form class="center" onsubmit="return false">
+                <textarea id="input_para" type="textarea" placeholder="Enter para"></textarea>
+                <br>
+                <br>
+                <br>
+                <button id="generated" type="submit">Generat</button>
+            </form>
+        </div>
+
+        <div id="words_generated">
+            <span id="tit1" class="center">Words generated</span>
+            <div class="center" id="btn_generated">
+            </div>
+        </div>
+
+        <div id="words_to_learn">
+            <span class="center" id="tit2">Word to learn</span>
+            <div class="center" id="btn_words_fav">
+            </div>
+        </div>
+    <footer>
+        <p>All rights reserver. MazenCanada Initiative</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

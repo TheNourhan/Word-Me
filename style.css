@@ -1,0 +1,195 @@
+
+.center{
+    margin: 0 auto;
+    text-align: center;
+}
+
+/*----------------------- HEADER ----------------------------*/
+header{
+    font-family: Cairo;
+    font-size: 50px;
+    font-weight: 700;
+    line-height: 94px;
+    letter-spacing: 0em;
+    text-align: center;
+    background: #F4D909; 
+    max-width: 100%; 
+    margin: 0 auto;
+}
+span{
+    width: 223px;
+    height: 94px;
+    top: 32px;
+    color: #474742;
+}
+/*----------------------- INSERT PARAGRAPH ----------------------------*/
+#insert_para{
+box-sizing: border-box;
+max-width:  100%; 
+margin: 0 auto;
+height: 401px;
+left: 0px;
+top: 158px;
+background: #1C1C1A;
+border: 1px solid #F4D909;
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+h2{
+font-family: 'Font Awesome 5 Free';
+font-style: normal;
+font-size: 35px;
+color: #FFFFFF;
+text-align: center;
+}
+textarea{
+width: 904px;
+height: 120px;
+left: 120px;
+font-family: 'Font Awesome 5 Free';
+font-style: normal;
+font-weight: 400;
+font-size: 35px;
+line-height: 40px;
+color: black;
+}
+.btn{
+margin: 0 auto;
+}
+#generated{
+width: 282px;
+height: 68px;
+right: 589px;
+top: 400px;
+background: #F4D909;
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+font-family: 'Inter';
+font-style: normal;
+font-weight: 500;
+font-size: 25px;
+line-height: 30px;
+color: #1C1C1A;
+}
+/*----------------------- WORDS GENERATED ----------------------------*/
+#words_generated{
+    background: #1C1C1A;
+    max-width:  100%; 
+    margin: 0 auto;
+}
+#tit1{
+    display: flex;
+    justify-content: center;
+width: 525px;
+height: 80px;
+left: 569px;
+top: 590px;
+text-align: center;
+font-family: 'Font Awesome 5 Free';
+font-style: normal;
+font-weight: 400;
+font-size: 35px;
+line-height: 40px;
+color: #FFFFFF;
+}
+.words_unique{
+box-sizing: border-box;
+width: 201px;
+height: 88px;
+right: 1089px;
+top: 666px;
+color: #FEFEFB;
+background: #272525;
+border: 2px solid #F4D909;
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+border-radius: 35px;
+font-family: 'Inter';
+font-style: normal;
+font-weight: 300;
+font-size: 20px;
+line-height: 24px;
+}
+.hart_icon{
+width: 25px;
+float: right;
+font-family: 'Font Awesome 5 Free';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 23px;
+color: #FAFA22;
+}
+.text_unique{
+width: 73px;
+height: 50px;
+left: 915px;
+top: 692px;
+font-family: 'Inter';
+font-style: normal;
+font-weight: 300;
+font-size: 20px;
+line-height: 24px;
+}
+.inbtn{
+    display: inline-block;
+}
+.text_word{
+    color: #FEFEFB; 
+}
+/*----------------------- WORDS TO LEARN ----------------------------*/
+#words_to_learn{
+    background: #1C1C1A;
+    max-width:  100%; 
+    margin: 0 auto;
+}
+#tit2{
+    display: flex;
+    justify-content: center;
+width: 525px;
+height: 80px;
+left: 558px;
+top: 1053px;
+font-family: 'Font Awesome 5 Free';
+font-style: normal;
+font-weight: 400;
+font-size: 35px;
+line-height: 40px;
+color: #FFFFFF;
+margin: 0 auto;
+}
+.words_fav{
+box-sizing: border-box;
+width: 201px;
+height: 87px;
+right: 862px;
+top: 1146px;
+background: #1C1C1A;
+border: 2px solid #F4D909;
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.1);
+border-radius: 35px;
+font-family: 'Inter';
+font-style: normal;
+font-weight: 300;
+font-size: 20px;
+line-height: 24px;
+color: #FFFFFF;
+text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.1);
+}
+.bin{
+    width: 25px;
+    height: 25px;
+    float: right;
+}
+/*----------------------- FOOTER ----------------------------*/
+footer{
+    max-width:  100%; 
+    margin: 0 auto;
+    background: #F4D909;
+}
+p{
+    font-family: 'Font Awesome 5 Free';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 23px;
+text-align: center;
+color: #1C1C1A;
+}
