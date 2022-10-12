@@ -3,7 +3,6 @@
     margin: 0 auto;
     text-align: center;
 }
-
 /*----------------------- HEADER ----------------------------*/
 header{
     font-family: Cairo;
@@ -107,16 +106,6 @@ font-weight: 300;
 font-size: 20px;
 line-height: 24px;
 }
-.hart_icon{
-width: 25px;
-float: right;
-font-family: 'Font Awesome 5 Free';
-font-style: normal;
-font-weight: 400;
-font-size: 20px;
-line-height: 23px;
-color: #FAFA22;
-}
 .text_unique{
 width: 73px;
 height: 50px;
@@ -134,6 +123,64 @@ line-height: 24px;
 .text_word{
     color: #FEFEFB; 
 }
+.text_word_arabic{
+    color: #FEFEFB; 
+}
+
+/**** start hart icon ****/
+.gg-heart,
+.gg-heart::after {
+ border: 2px solid;
+ border-top-left-radius: 100px;
+ border-top-right-radius: 100px;
+ width: 10px;
+ height: 8px;
+ border-bottom: 0;
+}
+
+.gg-heart {
+ box-sizing: border-box;
+ position: relative;
+ float: right;
+right: 10px;
+top: 15px;
+color: #FAFA22;
+ transform:
+ translate(
+ calc(-10px / 2 * var(--ggs,1)),
+ calc(-6px / 2 * var(--ggs,1))
+ )
+ rotate(-45deg)
+ scale(var(--ggs,1));
+ display: block
+}
+
+.gg-heart::after,
+.gg-heart::before {
+ content: "";
+ display: block;
+ box-sizing: border-box;
+ position: absolute;
+ 
+}
+
+.gg-heart::after {
+ right: -9px;
+ transform: rotate(90deg);
+ top: 5px;
+ color: #FAFA22;
+}
+
+.gg-heart::before {
+ width: 11px;
+ height: 11px;
+ border-left: 2px solid;
+ border-bottom: 2px solid;
+ left: -2px;
+ top: 3px;
+ color: #FAFA22;
+} 
+/**** end hart icon ****/
 /*----------------------- WORDS TO LEARN ----------------------------*/
 #words_to_learn{
     background: #1C1C1A;
